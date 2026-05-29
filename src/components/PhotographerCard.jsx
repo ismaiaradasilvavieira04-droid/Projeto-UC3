@@ -40,8 +40,9 @@ function PhotographerCard({ photographer }) {
         <p style={styles.specialty}>{photographer.specialty}</p>
 
         <div style={styles.meta}>
-          <span>estrela {photographer.rating} ({photographer.reviews})</span>
-          <span>local {photographer.city}</span>
+       <span>⭐ {photographer.rating} ({photographer.reviews})</span>
+<span>📍 {photographer.city}</span>
+       
         </div>
 
         <p style={styles.bio}>{photographer.bio.substring(0, 90)}...</p>

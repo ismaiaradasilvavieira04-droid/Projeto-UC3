@@ -45,11 +45,14 @@ function Photographers() {
 }
 
 const styles = {
-  page: {
-    padding: "32px 40px",
-    maxWidth: "1200px",
-    margin: "0 auto",
-  },
+ 
+ page: {
+  padding: "32px 40px",
+  paddingTop: "90px",
+  maxWidth: "1200px",
+  margin: "0 auto",
+},
+  
   filters: {
     display: "flex",
     gap: "8px",

@@ -16,24 +16,24 @@ function Home() {
   <div style={styles.featureCard}>
     <div style={{ ...styles.iconBox, backgroundColor: "#dbeafe" }}>📷</div>
     <h3 style={styles.featureTitle}>Variedade de Estilos</h3>
-    <p style={styles.featureText}>Desde casamentos ate fotografia corporativa, encontre especialistas em todas as areas</p>
+    <p style={styles.featureText}>Desde casamentos ate fotográfia corporativa, encontre especialistas em todas as áreas</p>
   </div>
   <div style={styles.featureCard}>
     <div style={{ ...styles.iconBox, backgroundColor: "#dcfce7" }}>💰</div>
-    <h3 style={styles.featureTitle}>Todos os Orcamentos</h3>
-    <p style={styles.featureText}>De fotografos economicos a profissionais premium - opcoes para todos os bolsos</p>
+    <h3 style={styles.featureTitle}>Todos os Orçamentos</h3>
+    <p style={styles.featureText}>De fotográfos ecônomicos a profissionais premium , opções para todos os bolsos</p>
   </div>
   <div style={styles.featureCard}>
     <div style={{ ...styles.iconBox, backgroundColor: "#f3e8ff" }}>✅</div>
     <h3 style={styles.featureTitle}>Profissionais Verificados</h3>
-    <p style={styles.featureText}>Todos os fotografos sao verificados com avaliacoes reais de clientes</p>
+    <p style={styles.featureText}>Todos os fotógrafos são verificados com avaliações reais de clientes</p>
   </div>
 </div>
       </div>
 
       <div style={{ ...styles.section, backgroundColor: "#f8f9fa" }}>
-        <h2 style={styles.sectionTitle}>Fotografos em Destaque</h2>
-        <p style={styles.sectionSubtitle}>Conheca alguns dos nossos profissionais mais bem avaliados</p>
+        <h2 style={styles.sectionTitle}>Fotográfos em Destaque</h2>
+        <p style={styles.sectionSubtitle}>Conheça alguns dos nossos profissionais mais bem avaliados</p>
         <div style={styles.grid}>
           {featured.map((p) => (
             <PhotographerCard key={p.id} photographer={p} />
@@ -41,7 +41,7 @@ function Home() {
         </div>
         <div style={{ textAlign: "center", marginTop: "32px" }}>
           <button style={styles.button} onClick={() => navigate("/fotografos")}>
-            Ver Todos os Fotografos
+            Ver Todos os Fotográfos
           </button>
         </div>
       </div>

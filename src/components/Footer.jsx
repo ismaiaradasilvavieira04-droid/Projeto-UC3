@@ -7,7 +7,7 @@ function Footer() {
         <div>
           <div style={styles.logo}>
             <img
-              src="/logo.png"
+              src="/logo2.png"
               alt="FotoConnect"
               style={styles.logoImg}
               onError={(e) => { e.target.style.display = "none"; }}
@@ -15,27 +15,27 @@ function Footer() {
            
           </div>
           <p style={styles.desc}>
-            A melhor plataforma para conectar voce aos fotografos mais
-            talentosos do Brasil.
+            A melhor plataforma para conectar você aos fotográfos mais
+            talentosos do Brasil💙.
           </p>
         </div>
 
         <div>
-          <h4 style={styles.heading}>Links Rapidos</h4>
+          <h4 style={styles.heading}>Links Rápidos</h4>
           <a href="/" style={styles.link}>Inicio</a>
-          <a href="/fotografos" style={styles.link}>Encontrar Fotografos</a>
+          <a href="/fotografos" style={styles.link}>Encontrar Fotográfos</a>
         </div>
 
         <div>
           <h4 style={styles.heading}>Contato</h4>
           <p style={styles.contact}>contato@fotoconnect.com.br</p>
-          <p style={styles.contact}>(11) 9999-9999</p>
-          <p style={styles.contact}>Sao Paulo, Brasil</p>
+          <p style={styles.contact}>(11) 7364-5574</p>
+          <p style={styles.contact}>São Paulo, Brasil</p>
         </div>
       </div>
 
       <div style={styles.bottom}>
-        <p>2026 FotoConnect. Todos os direitos reservados.</p>
+        <p>Ismaiara da Silva. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

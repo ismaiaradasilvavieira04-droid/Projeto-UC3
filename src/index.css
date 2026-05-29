@@ -370,3 +370,13 @@ body {
   object-fit: cover;
   border-radius: 8px;
 }
+
+
+
+/* VLibras */
+[vw-access-button]{
+  bottom: 90px !important;
+  right: 20px !important;
+  position: fixed !important;
+  z-index: 99999 !important;
+}

@@ -5,7 +5,7 @@ function Navbar() {
     <nav style={styles.nav}>
       <div style={styles.logo}>
         <img
-          src="/logo.png"
+          src="/logo2.png"
           alt="FotoConnect"
           style={styles.logoImg}
           onError={(e) => { e.target.style.display = "none"; }}
@@ -14,7 +14,7 @@ function Navbar() {
       </div>
       <div style={styles.links}>
         <a href="/" style={styles.link}>Inicio</a>
-        <a href="/fotografos" style={styles.link}>Encontrar Fotografos</a>
+        <a href="/fotografos" style={styles.link}>Encontrar Fotográfos</a>
         <a href="/fotografos" style={styles.button}>Contratar Agora</a>
       </div>
     </nav>

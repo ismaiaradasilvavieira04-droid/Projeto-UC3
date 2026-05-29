@@ -7,12 +7,12 @@ function Hero() {
   return (
     <div style={styles.hero}>
       <div style={styles.overlay}>
-        <h1 style={styles.title}>Encontre o Fotografo Perfeito</h1>
+        <h1 style={styles.title}>Encontre o Fotográfo Perfeito</h1>
         <p style={styles.subtitle}>
-          Do orcamento economico ao premium - profissionais para cada necessidade
+          Do orçamento econômico ao premium - profissionais para cada necessidade
         </p>
         <button style={styles.button} onClick={() => navigate("/fotografos")}>
-          Explorar Fotografos
+          Explorar Fotográfos
         </button>
       </div>
     </div>
